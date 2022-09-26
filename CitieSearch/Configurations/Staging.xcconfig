@@ -1,0 +1,14 @@
+//
+//  Staging.xcconfig
+//  CitieSearch
+//
+//  Created by okan.yucel on 5.03.2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_DISPLAY_NAME = Cities Search UAT
+PRODUCT_BUNDLE_NAME = CitieSearch
+PRODUCT_BUNDLE_IDENTIFIER = com.kona.CitieSearch.uat
+INITIAL_STORYBOARD_NAME = Splash

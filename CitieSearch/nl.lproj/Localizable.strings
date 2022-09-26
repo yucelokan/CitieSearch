@@ -1,0 +1,15 @@
+"data_structure_preparing" = "The data structure has preparing for you.\nThanks for you patient.";
+"data_structure_creating_started" = "Trie Data Structure creating has started";
+"data_structure_creating_completed" = "Trie Data Structure creating has completed";
+"ordering_cities_started" = "City ordering has started";
+"ordering_cities_completed" = "City ordering has completed";
+"data_structure_ready" = "Data structure is ready.";
+"cities_exporting" = "Cities has exporting from file.";
+"cities_exporting_completed" = "Exporting cities has completed.";
+"search_cities_in" =  "Search cities in {city_count} cities";
+"type_here" = "Type here";
+"throttle_for_searching" = "Throttle for searching: {throttle}";
+"search_response_message" = "{city_count} has found in {seconds} seconds for '{text}'";
+"latitude" = "Latitude";
+"longitude" = "Longitude";
+"dev_launched" = "Development configuration has launched.";
