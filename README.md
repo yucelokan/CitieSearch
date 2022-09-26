@@ -17,5 +17,5 @@ Packages:
 
 ## Swiftrie
 
-Please, check [my solution](https://github.com/yucelokan/CitieSearch/blob/develop/Swiftrie/README.md).
+Please, check [my solution](https://github.com/yucelokan/CitieSearch/blob/main/Swiftrie/README.md).
 
