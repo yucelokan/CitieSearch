@@ -34,7 +34,7 @@
 		7898F68127D4023C00716057 /* CitySearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898F67A27D4023C00716057 /* CitySearchModels.swift */; };
 		7898F68227D4023C00716057 /* CitySearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898F67B27D4023C00716057 /* CitySearchWorker.swift */; };
 		7898F68327D4023C00716057 /* CitySearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898F67C27D4023C00716057 /* CitySearchRouter.swift */; };
-		78C15DC927D4B139002FA4E5 /* Swiftrie in Frameworks */ = {isa = PBXBuildFile; productRef = 78C15DC827D4B139002FA4E5 /* Swiftrie */; };
+		78C14BBD28E4EF0000A1FA7C /* Swiftrie in Frameworks */ = {isa = PBXBuildFile; productRef = 78C14BBC28E4EF0000A1FA7C /* Swiftrie */; };
 		78C15DCF27D508D9002FA4E5 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C15DCD27D508D9002FA4E5 /* CityCell.swift */; };
 		78C15DD027D508D9002FA4E5 /* CityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78C15DCE27D508D9002FA4E5 /* CityCell.xib */; };
 		78C15DD927D5348F002FA4E5 /* CityMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C15DD227D5348F002FA4E5 /* CityMap.storyboard */; };
@@ -113,7 +113,6 @@
 		78F19CA827D68F4E003BE8B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		78F19CAA27D68F60003BE8B2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		78F19CAC27D69006003BE8B2 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		78FC699D27D394A80088343D /* Swiftrie */ = {isa = PBXFileReference; lastKnownFileType = text; path = Swiftrie; sourceTree = SOURCE_ROOT; };
 		78FC69A627D3B15D0088343D /* API */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = API; sourceTree = SOURCE_ROOT; };
 		78FC69AA27D3B6D10088343D /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = SOURCE_ROOT; };
 		78FC69AC27D3BA590088343D /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = text; path = Extensions; sourceTree = SOURCE_ROOT; };
@@ -126,7 +125,7 @@
 			files = (
 				7898F67327D3BB3D00716057 /* Extensions in Frameworks */,
 				78FC69A827D3B51C0088343D /* API in Frameworks */,
-				78C15DC927D4B139002FA4E5 /* Swiftrie in Frameworks */,
+				78C14BBD28E4EF0000A1FA7C /* Swiftrie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +182,6 @@
 				780ABAF727D37B1800AC241A /* Info.plist */,
 				78FC69AC27D3BA590088343D /* Extensions */,
 				78FC69A627D3B15D0088343D /* API */,
-				78FC699D27D394A80088343D /* Swiftrie */,
 				78F19CA927D68F4E003BE8B2 /* Localizable.strings */,
 			);
 			path = CitieSearch;
@@ -349,7 +347,7 @@
 			packageProductDependencies = (
 				78FC69A727D3B51C0088343D /* API */,
 				7898F67227D3BB3D00716057 /* Extensions */,
-				78C15DC827D4B139002FA4E5 /* Swiftrie */,
+				78C14BBC28E4EF0000A1FA7C /* Swiftrie */,
 			);
 			productName = CitieSearch;
 			productReference = 780ABAE627D37B1700AC241A /* CitieSearch.app */;
@@ -425,6 +423,7 @@
 			);
 			mainGroup = 780ABADD27D37B1700AC241A;
 			packageReferences = (
+				78C14BBB28E4EF0000A1FA7C /* XCRemoteSwiftPackageReference "Swiftrie" */,
 			);
 			productRefGroup = 780ABAE727D37B1700AC241A /* Products */;
 			projectDirPath = "";
@@ -1009,13 +1008,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		78C14BBB28E4EF0000A1FA7C /* XCRemoteSwiftPackageReference "Swiftrie" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yucelokan/Swiftrie.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		7898F67227D3BB3D00716057 /* Extensions */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Extensions;
 		};
-		78C15DC827D4B139002FA4E5 /* Swiftrie */ = {
+		78C14BBC28E4EF0000A1FA7C /* Swiftrie */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 78C14BBB28E4EF0000A1FA7C /* XCRemoteSwiftPackageReference "Swiftrie" */;
 			productName = Swiftrie;
 		};
 		78FC69A727D3B51C0088343D /* API */ = {
