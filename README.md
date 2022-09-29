@@ -1,5 +1,7 @@
 # CitieSearch
 
+This project is example of [Swiftrie](https://github.com/yucelokan/Swiftrie) implementation.
+
 First in first. You need to build all packages before building the project.
 
 Packages:
